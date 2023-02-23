@@ -41,13 +41,13 @@ class Msg:
 
     def start(msg: Message) -> str:
         """ return start-message text """
-        txt = f"السلام عليكم . أنا بوت ضغط الملفات . فقط أرسل الملفات التي تريد ضغطها ثم اضغط الأمر \n\n /zip \n\n لبقية البوتات هنا \n\n https://t.me/ibnAlQyyim/1120 \n\n تم تطويره بواسطة @M100achuzBots "
+        txt = f"السلام عليكم . أنا بوت ضغط الملفات . فقط اضغط الأمر \n\n /zip ثم أرسل الملفات التي تريد ضغطها ثم الأمر \n\n /stopzip .  \n\n لبقية البوتات هنا \n\n https://t.me/ibnAlQyyim/1120 \n\n تم تطويره بواسطة @M100achuzBots "
         return txt
 
-    zip = "جاري الضغط . يمكنك إيقاف العملية عن طريقة الأمر \n\n /stopzip "
+    zip = "أرسل الملفات التي تريد ضغطها ثم اضغط الأمر \n\n /stopzip "
     too_big = "الملف كبير للغاية "
     too_much = "لا يسمح بأكثر من 20 ملف"
-    send_zip = "أرسل باقي الملفات من فضلك ثم اضغط الأمر \n\n /zip "
+    send_zip = "أولاً :اضغط الأمر \n\n /zip \n\n ثم أرسل الملفات  "
     zipping = "جاري الضغط"
     uploading = "جاري الرفع"
     unknow_error = "خطأ غير معلوم"
