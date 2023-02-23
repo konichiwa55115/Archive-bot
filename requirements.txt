@@ -4,3 +4,7 @@ pyaes==1.6.1
 Pyrogram==1.2.9
 PySocks==1.7.1
 TgCrypto==1.2.2
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.1
+pymongo[srv]==3.12.3
